@@ -450,7 +450,7 @@ ol {
 .logo-area {
 	float: left;
 	display: inline-block;
-	background: #121212;
+	background: #014990;
 	padding: 5px;
 }
 
@@ -528,7 +528,7 @@ ol {
 	position: absolute;
 	width: 100px;
 	height: 100%;
-	background: #121212;
+	background: #014990;
 	z-index: 20;
 }
 
@@ -548,6 +548,8 @@ ol {
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
+	color: white;
+
 }
 
 .social-links a:hover {
@@ -624,16 +626,16 @@ ol {
 }
 
 .slide-num-holder {
-	width: 153px;
-	height: 250px;
+	width: 150px;
+	height: 180px;
 	position: absolute;
 	right: 60px;
-	background: rgba(18, 18, 18, 0.95);
+	background: #014990;
 	bottom: -40px;
 	z-index: 111;
 	text-align: right;
 	padding-right: 20px;
-	padding-top: 60px;
+	padding-top: 40px;
 	color: #fff;
 	font-weight: 700;
 }
@@ -790,7 +792,7 @@ ol {
 	height: 100%;
 	right: 0;
 	top: 0;
-	background: #222222;
+	background: #014990;
 	z-index: 2;
 }
 
@@ -934,7 +936,7 @@ ol {
 }
 
 .projects-slider .single-project .project-content {
-	padding: 40px;
+	padding: 20px;
 	height: 100%;
 	background: rgba(13, 13, 13, 0.5);
 	-webkit-transition: all 0.4s ease 0s;
@@ -960,16 +962,15 @@ ol {
 	/* color: #baff00; */
 	font-weight: 500;
 	position: relative;
-	top: 40px;
+	top: 10px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+	font-style: italic;
 }
 
 .projects-slider .single-project .seemore {
-	position: absolute;
-	right: 50px;
-	bottom: 30px;
+
 	background: #baff00;
 	font-size: 14px;
 	font-weight: 700;
@@ -991,7 +992,7 @@ ol {
 }
 
 .projects-slider .single-project:hover .seemore {
-	bottom: 50px;
+	/* bottom: 50px; */
 }
 
 .projects-slider .single-project.__loading {
